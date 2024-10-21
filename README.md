@@ -1,3 +1,4 @@
+ДЗ4
 1 задача:
 ![1-1](https://github.com/user-attachments/assets/285d6df5-b7a4-4ef7-a447-c162248faa5a)
 
@@ -17,3 +18,7 @@
 5 задача:
 ![5-1](https://github.com/user-attachments/assets/0f35e9c4-8ff4-4fb4-815f-77c844db853a)
 ![5-2](https://github.com/user-attachments/assets/a4e63f4c-13cd-45db-a532-cfe07031a071)
+
+ДЗ6
+![image](https://github.com/user-attachments/assets/774ea7b6-9073-461f-8ac2-8d275406938d)
+
