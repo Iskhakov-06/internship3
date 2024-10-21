@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4a5ea4b9-5753-4af2-9843-06367a5eb3ef)ДЗ4
+ДЗ_4
 1 задача:
 ![1-1](https://github.com/user-attachments/assets/285d6df5-b7a4-4ef7-a447-c162248faa5a)
 
@@ -19,19 +19,23 @@
 ![5-1](https://github.com/user-attachments/assets/0f35e9c4-8ff4-4fb4-815f-77c844db853a)
 ![5-2](https://github.com/user-attachments/assets/a4e63f4c-13cd-45db-a532-cfe07031a071)
 
-ДЗ6
-1)
+ДЗ_6
+1 задача
+
 ![image](https://github.com/user-attachments/assets/fbd73209-4ad9-4b60-8a1a-786188d4684e)
 ![image](https://github.com/user-attachments/assets/67717df4-5aa2-45b5-ae7e-0c5853b2f95f)
 
-2)
+2 задача
+
 ![image](https://github.com/user-attachments/assets/6d8afc93-c918-4b1e-928a-28df601108b7)
 ![image](https://github.com/user-attachments/assets/d8cd1920-3c4e-4288-827a-87440b323f8e)
 
-3)
+3 задача
+
 ![image](https://github.com/user-attachments/assets/d6d0fb23-b18c-4bb0-8563-6d1039171675)
 ![image](https://github.com/user-attachments/assets/001147fa-c0e6-4ba1-8784-ace043e27a9e)
 
-4)
+4 задача
+
 ![image](https://github.com/user-attachments/assets/27d14485-8422-4547-9e34-8e9021230378)
 ![image](https://github.com/user-attachments/assets/61555ec8-a653-4629-a91b-84c11f0b0016)
