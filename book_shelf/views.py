@@ -1,13 +1,16 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
+from django_filters.views import FilterView
 
+from .filters import ProductFilter
 from .models import Product
 
 
-class ProductListView(ListView):
+class ProductListView(FilterView):
     model = Product
     template_name = 'book_shelf/product_list.html'
     context_object_name = 'products'
+    filterset_class = ProductFilter
 
 
 class ProductDetailView(DetailView):

@@ -4,17 +4,26 @@
 
 {% block content %}
     <h1>Товары</h1>
+
+    <form method="get">
+        {{ filter.form.as_p }}
+        <button type="submit">Применить фильтры</button>
+    </form>
+
     <ul>
         {% for product in products %}
             <li>
                 <a href="{% url 'product_detail' product.pk %}">
-                    {{ product.name|truncatechars:30 }}
+                    {{ product.name }} - {{ product.price }}$
                 </a>
-                <p>Цена: {{ product.price }}</p>
-                <p>Производитель: {{ product.manufacturer.name|default:"ХЗ че-за компания" }}</p>
+                {% if product.stock > 0 %}
+                    <p>В наличии на складе: {{ product.stock }}</p>
+                {% else %}
+                    <p>Нет в наличии</p>
+                {% endif %}
             </li>
         {% empty %}
-            <li>Нет доступных товаров</li>
+            <li>Нет товаров по указанным фильтрам.</li>
         {% endfor %}
     </ul>
 {% endblock %}
