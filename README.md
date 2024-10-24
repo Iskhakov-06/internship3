@@ -39,3 +39,7 @@
 
 ![image](https://github.com/user-attachments/assets/27d14485-8422-4547-9e34-8e9021230378)
 ![image](https://github.com/user-attachments/assets/61555ec8-a653-4629-a91b-84c11f0b0016)
+
+ДЗ_6
+![image](https://github.com/user-attachments/assets/60e4d8b9-2767-4c75-972a-11d0ddcfcdb2)
+
