@@ -41,5 +41,6 @@
 ![image](https://github.com/user-attachments/assets/61555ec8-a653-4629-a91b-84c11f0b0016)
 
 ДЗ_6
+Сами тесты смотрите в коде
 ![image](https://github.com/user-attachments/assets/60e4d8b9-2767-4c75-972a-11d0ddcfcdb2)
 
