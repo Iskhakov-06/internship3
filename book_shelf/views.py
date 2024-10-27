@@ -1,9 +1,26 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django_filters.views import FilterView
+from rest_framework import viewsets
 
 from .filters import ProductFilter
-from .models import Product
+from .models import Product, Manufacturer, Warehouse, Customer, Order, OrderItem
+from .serializers import ProductSerializer, ManufacturerSerializer, WarehouseSerializer
+
+
+class ManufacturerAPI(viewsets.ModelViewSet):
+    queryset = Manufacturer.objects.all()
+    serializer_class = ManufacturerSerializer
+
+
+class WarehouseAPI(viewsets.ModelViewSet):
+    queryset = Warehouse.objects.all()
+    serializer_class = WarehouseSerializer
+
+
+class ProductAPI(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
 
 
 class ProductListView(FilterView):

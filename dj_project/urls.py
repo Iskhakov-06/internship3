@@ -16,15 +16,24 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from book_shelf.views import ProductListView, ProductDetailView, ProductCreateView, ProductUpdateView, ProductDeleteView
 
+from book_shelf.views import ProductListView, ProductDetailView, ProductCreateView, ProductUpdateView, \
+    ProductDeleteView, ManufacturerAPI, WarehouseAPI, ProductAPI
+from rest_framework.routers import DefaultRouter
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
+router = DefaultRouter()
+router.register('manufacturers', ManufacturerAPI, basename='manufacturers')
+router.register('warehouses', WarehouseAPI, basename='warehouses')
+router.register('products', ProductAPI, basename='products')
 
 urlpatterns = [
-    path('', ProductListView.as_view(), name='product_list'),
-    path('<int:pk>/', ProductDetailView.as_view(), name='product_detail'),
-    path('create/', ProductCreateView.as_view(), name='product_create'),
-    path('<int:pk>/update/', ProductUpdateView.as_view(), name='product_update'),
-    path('<int:pk>/delete/', ProductDeleteView.as_view(), name='product_delete'),
-    path('admin/', admin.site.urls),
-]
-
+                  path('', ProductListView.as_view(), name='product_list'),
+                  path('<int:pk>/', ProductDetailView.as_view(), name='product_detail'),
+                  path('create/', ProductCreateView.as_view(), name='product_create'),
+                  path('<int:pk>/update/', ProductUpdateView.as_view(), name='product_update'),
+                  path('<int:pk>/delete/', ProductDeleteView.as_view(), name='product_delete'),
+                  path('admin/', admin.site.urls),
+                  path('schema/', SpectacularAPIView.as_view(), name='schema'),
+                  path('swagger/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+              ] + router.urls
