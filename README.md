@@ -40,7 +40,13 @@
 ![image](https://github.com/user-attachments/assets/27d14485-8422-4547-9e34-8e9021230378)
 ![image](https://github.com/user-attachments/assets/61555ec8-a653-4629-a91b-84c11f0b0016)
 
-ДЗ_6
+ДЗ_7
 Сами тесты смотрите в коде
 ![image](https://github.com/user-attachments/assets/60e4d8b9-2767-4c75-972a-11d0ddcfcdb2)
+
+ДЗ_8
+![image](https://github.com/user-attachments/assets/5029b562-2285-4917-a986-52343b2f357c)
+![image](https://github.com/user-attachments/assets/948faf5c-8908-4a88-9014-9ebf03abfe58)
+![image](https://github.com/user-attachments/assets/13451dc1-4add-4b73-85f8-ba3ab6c264f6)
+![image](https://github.com/user-attachments/assets/0f6987be-ff15-43be-a7ce-c9459d9120cf)
 
